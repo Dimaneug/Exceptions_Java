@@ -23,10 +23,12 @@
 При возникновении проблемы с чтением-записью в файл, исключение должно быть корректно обработано, пользователь должен увидеть стектрейс ошибки.
  */
 
-import exceptions.DateOfBirthNotFound;
-import exceptions.NotEnoughNames;
-import exceptions.PhoneNumberNotFound;
-import exceptions.SexNotFound;
+package home3;
+
+import home3.exceptions.DateOfBirthNotFound;
+import home3.exceptions.NotEnoughNames;
+import home3.exceptions.PhoneNumberNotFound;
+import home3.exceptions.SexNotFound;
 
 import java.io.File;
 import java.io.FileWriter;

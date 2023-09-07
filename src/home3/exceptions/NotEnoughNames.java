@@ -1,4 +1,4 @@
-package exceptions;
+package home3.exceptions;
 
 public class NotEnoughNames extends Exception {
 //    short count;
